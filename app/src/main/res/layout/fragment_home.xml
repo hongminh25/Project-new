@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
+    <Button
+        android:id="@+id/btn_ThemNode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Node"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="50dp"/>
 
+    <Button
+        android:id="@+id/btn_QuanLyNode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quản lý Node"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="45dp"/>
 
-</RelativeLayout>
+</LinearLayout>

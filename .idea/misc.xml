@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_quan_ly_node.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_statistics.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/layout/fragment_them_node.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJECT7/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/lab/android_app/project/Project-new/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/lab/android_app/project/Project-new/app/src/main/res/layout/activity_sign_in.xml" value="0.24166666666666667" />

@@ -8,6 +8,41 @@
     >
 
     <Button
+        android:id="@+id/btn_DonViDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Đơn vị đo"
+        />
+
+    <Button
+        android:id="@+id/btn_NgonNgu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngôn ngữ"
+        />
+
+    <Button
+        android:id="@+id/btn_DoiMK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi Mật Khẩu"
+        />
+
+    <Button
+        android:id="@+id/btn_ThongTinPhanMem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin phần mềm"
+        />
+
+    <Button
+        android:id="@+id/btn_dangxuat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="đăng xuất" />
+
+    <Button
         android:id="@+id/btn_dangnhap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,13 +55,6 @@
         android:layout_height="wrap_content"
 
         android:text="đăng kí"/>
-
-    <Button
-        android:id="@+id/btn_dangxuat"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:text="đăng xuất" />
 
 
 </LinearLayout>
