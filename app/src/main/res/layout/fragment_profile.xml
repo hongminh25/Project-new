@@ -11,7 +11,8 @@
         android:id="@+id/btn_DonViDo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:backgroundTint="#fff"
+        android:textColor="#000"
         android:text="Đơn vị đo"
         />
 
@@ -19,6 +20,8 @@
         android:id="@+id/btn_NgonNgu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="#000"
         android:text="Ngôn ngữ"
         />
 
@@ -26,13 +29,17 @@
         android:id="@+id/btn_DoiMK"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Đổi Mật Khẩu"
-        />
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:fadeScrollbars="false"
+        android:text="Đổi Mật Khẩu" />
 
     <Button
         android:id="@+id/btn_ThongTinPhanMem"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
         android:text="Thông tin phần mềm"
         />
 
@@ -40,6 +47,8 @@
         android:id="@+id/btn_dangxuat"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
         android:text="đăng xuất" />
 
     <Button
