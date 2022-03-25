@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PROJECT">
         <activity
+            android:name=".ThongtinPhanmemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoimatKhauActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NgonNguActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonviDoActivity"
+            android:exported="false" />
+        <activity
             android:name=".QuanlyNodeActivity"
             android:exported="false" />
         <activity
