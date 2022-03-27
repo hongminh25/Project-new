@@ -20,6 +20,7 @@ public class ProfileFragment extends Fragment {
     private Button btnDangki;
     private Button btnDangnhap;
     private Button btnDangxuat;
+    private Button btnDoimatkhau;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -60,6 +61,16 @@ public class ProfileFragment extends Fragment {
             }
         });
 
+//        btnDoimatkhau.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                FirebaseAuth.getInstance().signOut();
+//                Intent intent = new Intent(getActivity(), SignInActivity.class);
+//                startActivity(intent);
+//
+//            }
+//        });
+
         return view;
     }
 
@@ -67,6 +78,7 @@ public class ProfileFragment extends Fragment {
         btnDangki = (Button) view.findViewById(R.id.btn_dangki);
         btnDangnhap = (Button) view.findViewById(R.id.btn_dangnhap);
         btnDangxuat = (Button) view.findViewById(R.id.btn_dangxuat);
+        btnDoimatkhau = (Button) view.findViewById(R.id.btn_DoiMK);
 
     }
 }
