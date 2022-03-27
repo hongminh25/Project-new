@@ -40,25 +40,20 @@ public class FlashScreenActivity extends AppCompatActivity {
                         probTientrinh.setProgress(current + 10);
                         probTientrinh.setSecondaryProgress(next + 10);
 
-                        if(user == null){
-                            intent = new Intent(FlashScreenActivity.this, SignInActivity.class);
 
-                        }else{
-                            intent = new Intent(FlashScreenActivity.this, MainActivity.class);
-                        }
                     }
 
                     @Override
                     public void onFinish() {
-//                        if(user == null){
-//                            Intent intent = new Intent(FlashScreenActivity.this, SignInActivity.class);
-//                            startActivity(intent);
-//
-//                        }else{
-//                            Intent intent = new Intent(FlashScreenActivity.this, MainActivity.class);
-//                            startActivity(intent);
-//                        }
-                        startActivity(intent);
+                        if(user == null){
+                            Intent intent = new Intent(FlashScreenActivity.this, SignInActivity.class);
+                            startActivity(intent);
+
+                        }else{
+                            Intent intent = new Intent(FlashScreenActivity.this, MainActivity.class);
+                            startActivity(intent);
+                        }
+
                         //chạy tiếp
                         //this.start();
                         //Toast.makeText(SplashActivity.this, "Tiến trình đã hoàn thành", Toast.LENGTH_SHORT).show();

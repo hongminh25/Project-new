@@ -10,19 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PROJECT">
         <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".QuanlyNodeActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ThemNodeActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".SignUpActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
             android:name=".SignInActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".DoimatKhauActivity"
+            android:exported="true"/>
+        <activity
+           android:name=".FlashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
